@@ -6,7 +6,7 @@ end
 
 
 def batch_badge_creator(speakers)
-  speakers.map
+  speakers.map{ |name| 
 # speakers.each do |speaker| 
 # badge_maker(speaker)
 # badges =badge_maker(speaker)
