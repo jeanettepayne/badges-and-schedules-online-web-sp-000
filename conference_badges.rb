@@ -6,6 +6,6 @@ end
 
 
 def batch_badge_creator(speakers)
-  speakers.map{ |name| badge_maker(name)
+  speakers.map{ |name| badge_maker(name) }
 end
 
